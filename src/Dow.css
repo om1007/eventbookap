@@ -1,0 +1,107 @@
+/* Dow.css */
+.dow-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  font-family: sans-serif;
+  padding: 20px;
+  min-height: 100vh;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.ticket-card {
+  width: 90%;
+  max-width: 350px;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.confirm-text {
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+.qr-image {
+  width: 200px;
+  height: 200px;
+  margin: 10px auto;
+  object-fit: cover;
+  border: 2px solid #FFD700;
+}
+
+.ticket-details {
+  margin-top: 10px;
+}
+
+.event-name {
+  font-weight: bold;
+  font-size: 18px;
+  margin: 8px 0 2px 0;
+}
+
+.event-desc {
+  font-size: 15px;
+  margin-bottom: 8px;
+}
+
+.event-datetime {
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+.pass-type {
+  background-color: #f4f4f4;
+  font-weight: bold;
+  padding: 4px 10px;
+  border-radius: 5px;
+  display: inline-block;
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.booking-id {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.download-btn {
+  background-color: #d4a017;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-bottom: 70px;
+  transition: background 0.3s;
+}
+
+.download-btn:hover {
+  background-color: #b48d12;
+}
+
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  background: white;
+  border-top: 1px solid #ccc;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-item {
+  font-size: 14px;
+  text-align: center;
+  color: #333;
+}

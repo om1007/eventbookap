@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f8f8f5; /* Soothing off-white */
+}
+
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.welcome-screen,
+.booking-screen {
+  text-align: center;
+  padding: 20px;
+}
+
+.welcome-screen h1 {
+  font-size: 28px;
+  color: #111;
+  margin-bottom: 30px;
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.feature {
+  width: 90px;
+}
+
+.icon-circle {
+  width: 70px;
+  height: 70px;
+  margin: 0 auto 10px;
+  background-color: #d4a017; /* Soft royal golden yellow */
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+  color: black;
+}
+
+.feature h3 {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.feature p {
+  font-size: 12px;
+  color: #444;
+}
+
+.dots {
+  font-size: 16px;
+  margin-bottom: 25px;
+  color: #aaa;
+}
+
+.next-button {
+  background-color: #d4a017;
+  border: none;
+  color: white;
+  padding: 12px 36px;
+  font-size: 16px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.next-button:hover {
+  background-color: #c39215;
+}
+
+.booking-screen h2 {
+  color: #d4a017;
+}
